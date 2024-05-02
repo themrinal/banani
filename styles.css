@@ -1,0 +1,108 @@
+/* Custom CSS */
+
+/* Navbar */
+.navbar {
+  background-color: #4CAF50;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+/* Home Section */
+#home {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+#home h1 {
+  color: #333;
+  text-align: center;
+}
+
+#home p {
+  text-align: justify;
+  text-justify: inter-word;
+  color: #555;
+}
+
+/* Publications, Projects, Books, Awards, and Expertise Sections */
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title h2 {
+  color: #333;
+}
+
+.section-content {
+  padding: 50px 0;
+}
+
+.section-content h3 {
+  color: #333;
+}
+
+.section-content p {
+  text-align: justify;
+  text-justify: inter-word;
+  color: #555;
+}
+
+/* Contact Section */
+#contact {
+  background-color: lightblue;
+  color: #fff;
+  padding: 50px 0;
+}
+
+#contact h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #lightgray;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.quote {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.quote-text {
+  font-style: italic;
+  font-size: 18px;
+  color: deepskyblue;
+}
