@@ -44,3 +44,77 @@ h1, h2, h3, h4, h5, h6 {
 /* Header */
 .header {
   background-image: url('header-bg.jpg');
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.header h1 {
+  font-size: 3em;
+}
+
+.header p {
+  font-size: 1.2em;
+}
+
+/* About Section */
+#about {
+  padding: 50px 0;
+}
+
+/* Services Section */
+#services {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.service-icon {
+  font-size: 4em;
+  color: #007bff;
+}
+
+/* Portfolio Section */
+#portfolio {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px 0;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.social-links {
+  text-align: right;
+}
+
+/* Footer */
+footer {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 30px 0;
+}
+
+.footer-links a {
+  color: #ffffff;
+}
+
+.footer-links a:hover {
+  color: #f9f9f9;
+}
