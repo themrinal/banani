@@ -14,23 +14,43 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab', serif;
+h1 {
+  color: #004080;
+}
+
+h2 {
+  color: #00204d;
+}
+
+h3 {
+  color: #004080;
+}
+
+h4 {
+  color: #00204d;
+}
+
+h5 {
+  color: #004080;
+}
+
+h6 {
+  color: #00204d;
 }
 
 .btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #004080;
+  border-color: #004080;
 }
 
 .btn-primary:hover {
-  background-color: #0056b3;
-  border-color: #0056b3;
+  background-color: #003366;
+  border-color: #003366;
 }
 
 /* Navbar */
 .navbar {
-  background-color: #007bff;
+  background-color: #004080;
 }
 
 .navbar-brand, .navbar-nav .nav-link {
@@ -71,7 +91,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .service-icon {
   font-size: 4em;
-  color: #007bff;
+  color: #004080;
+}
+
+.service-title {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #333;
 }
 
 /* Portfolio Section */
@@ -82,6 +108,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+.portfolio-item img {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item img:hover {
+  transform: scale(1.1);
 }
 
 /* Contact Section */
@@ -100,13 +135,51 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 }
 
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: none;
+  border-color: #004080;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #004080;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #003366;
+}
+
 .social-links {
   text-align: right;
 }
 
+.social-links a {
+  color: #004080;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.social-links a:hover {
+  color: #003366;
+}
+
 /* Footer */
 footer {
-  background-color: #007bff;
+  background-color: #004080;
   color: #ffffff;
   padding: 30px 0;
 }
@@ -117,4 +190,13 @@ footer {
 
 .footer-links a:hover {
   color: #f9f9f9;
+}
+
+/* Quote */
+.quote {
+  font-style: italic;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2em;
+  color: #555;
 }
